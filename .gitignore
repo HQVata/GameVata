@@ -26,3 +26,11 @@
 *.exe
 *.out
 *.app
+
+# Logs
+*.log
+
+# Qt meta_data
+*.user
+build-*/
+
