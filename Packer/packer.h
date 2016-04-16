@@ -36,6 +36,7 @@ private:
     bool findSB(QIODevice *socket);
     bool readCMD(QIODevice *socket);
     bool readDL(QIODevice *socket);
+    bool readHeader(QIODevice *socket);
     bool readDATA(QIODevice *socket);
     bool readCRC(QIODevice *socket);
     bool checkCRC();

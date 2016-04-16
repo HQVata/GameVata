@@ -43,3 +43,8 @@ QByteArray Packer::getRDATA()
     return RDATA;
 }
 
+bool Packer::readHeader(QIODevice *socket)
+{
+
+}
+
